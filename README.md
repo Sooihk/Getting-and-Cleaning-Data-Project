@@ -7,4 +7,11 @@ Sooihk Ro submission for Getting and Cleaning Data course project. It has the in
 
 # Files
 
-* `Codebook.md` 
+* `Codebook.md` a code book that describes the problems to solve, variables of the dataset and transformations on the data.
+* `run_analysis.R` R file which performs preparation on the dataset to solve the questions for the project. 
+    * Merges the training and the test sets to create one data set.
+    * Extracts only the measurements on the mean and standard deviation for each measurement.
+    * Uses descriptive activity names to name the activities in the data set
+    * Appropriately labels the data set with descriptive variable names. 
+    * From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity         and each subject.
+* `tidyData.txt` exported final data after following above steps.
